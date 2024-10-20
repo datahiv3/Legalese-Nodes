@@ -1,20 +1,40 @@
 # Legalese Nodes
 
 ## Project Description
-Legalese Nodes is a multi-functional framework designed to facilitate the management, processing, and storage of legal data across multiple versions, including LN1 through LN5. It aims to streamline legal processes, enhance accessibility, and ensure compliance with evolving regulations.
+Legalese Nodes is a comprehensive framework for managing, processing, and storing legal data across multiple versions (LN1 through LN5). This repository serves as a high-level overview and central hub for the entire Legalese Nodes ecosystem.
+
+For a more detailed overview of the Legalese Nodes ecosystem, including key features, functions, and technical specifications, please refer to our comprehensive document:
+[Legalese Nodes Ecosystem Overview](https://docs.google.com/document/d/1EKGdM-35KMS_HiNZ3x4QjaO_T5-QNiXhy-1HNbWFZto/edit)
+
 
 ## Purpose
-The purpose of Legalese Nodes is to create a robust network of legal data nodes that can interoperate seamlessly, allowing for secure data exchange, consent management, and the transformation of legal information into valuable assets.
+1. **Project Overview**: Provides a comprehensive view of the Legalese Nodes ecosystem.
+2. **Roadmap**: Outlines the development plans and milestones for all LN versions.
+3. **Sample Code**: Contains example implementations and code snippets for each LN version.
+4. **Documentation**: Houses high-level documentation applicable across all LN versions.
+5. **Preliminary Releases**: Includes early-stage releases for testing and feedback.
 
 ## Key Features
-- **Multi-Version Support:** Accommodates various iterations of Legalese Nodes (LN1 to LN5).
-- **Data Assetization:** Transforms legal data into manageable assets.
-- **Consent Management:** Implements robust consent verification mechanisms.
-- **Interoperability:** Facilitates communication between different node types.
-- **Scalability:** Designed to scale from simple to complex legal processes.
+- Legal Data Indexing and Curation
+- Legal Intelligence Layer
+- Library of Legal Products
+- Legal Data Dictionary
+- Legal Text Network
+- Integration with Consent Nodes and Data Assetization Nodes
 
 ## Repository Structure
 
+This structure reflects the actual organization of the Legalese-Nodes repository, including:
+
+- A `docs` directory for documentation
+- A `scripts` directory for utility scripts
+- A `src` directory containing:
+  - A `common` folder for shared code
+  - Separate directories for each Legalese Node version (ln1 through ln5)
+- A `tests` directory for test files
+- The main README.md file at the root level
+
+This structure allows for organized development of each Legalese Node version while providing common resources and clear separation of documentation, source code, and tests.
 
 ## Version-Specific Details
 ### LN1
@@ -37,10 +57,31 @@ The purpose of Legalese Nodes is to create a robust network of legal data nodes 
 - Full integration with external legal APIs.
 - Advanced user interfaces for better interaction with the node.
 
-## Installation Instructions
-To install and set up Legalese Nodes, follow these steps:
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/datahiv3/Legalese-Nodes.git
-   cd Legalese-Nodes
+### Individual Node Repositories
+
+Each Legalese Node version (LN1 through LN5) has its own dedicated repository:
+
+- LN1: 
+    - Private: https://github.com/datahiv3/LN1
+    - Public: https://github.com/datahiv3/Legalese-Node-LN1
+- LN2: 
+  - Public: [Link to public LN2 repo]
+  - Private: [Link to private LN2 repo]
+- LN3: 
+  - Public: [Link to public LN3 repo]
+  - Private: [Link to private LN3 repo]
+- LN4: 
+  - Public: [Link to public LN4 repo]
+  - Private: [Link to private LN4 repo]
+- LN5: 
+  - Public: [Link to public LN5 repo]
+  - Private: [Link to private LN5 repo]
+
+These individual repositories contain the detailed implementation, documentation, and version-specific code for each Legalese Node version. The public repositories contain open-source components and general information, while the private repositories house sensitive or proprietary code and data.
+
+Developers and contributors should refer to the specific repository for each Legalese Node version when working on or deploying that particular node type.
+
+## Getting Started
+
+For general information about the Legalese Nodes project, start here. For version-specific details, please refer to the respective public repositories. For an in-depth understanding of the Legalese Nodes ecosystem, including its features, functions, and technical specifications, we highly recommend reviewing our comprehensive document linked above.
