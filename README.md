@@ -15,12 +15,12 @@ For a more detailed overview of the Legalese Nodes ecosystem, including key feat
 5. **Preliminary Releases**: Includes early-stage releases for testing and feedback.
 
 ## Key Features
-- Legal Data Indexing and Curation
-- Legal Intelligence Layer
-- Library of Legal Products
-- Legal Data Dictionary
-- Legal Text Network
-- Integration with Consent Nodes and Data Assetization Nodes
+- [Legal Data Indexing and Curation](./docs/Legal_Data_Indexing_and_Curation.md)
+- [Legal Intelligence Layer](./docs/Legal_Intelligence_Layer.md)
+- [Library of Legal Products](./docs/Library_of_Legal_Products.md)
+- [Legal Data Dictionary](./docs/Legal_Data_Dictionary.md)
+- [Legal Text Network](./docs/Legal_Text_Network.md)
+- [Integration with Consent Nodes and Data Assetization Nodes](./docs/Integration_with_Other_Nodes.md)
 
 ## Repository Structure
 
